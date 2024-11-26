@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ramnime</title>
+    <link href="stylesheet" rel="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=fredoka+one&display=swap" rel="stylesheet">
+  </head>
+  <body>
+     <style>
+    /* Mengatur font untuk Brand Name */
+    .navbar-brand span {
+      font-family: 'Fredoka One', cursive; /* Gaya font kartun */
+      font-size: 28px; /* Ukuran font lebih besar */
+      color: #ff5722; /* Warna teks kartun (bisa diganti sesuai keinginan) */
+    }
+
+    /* Menjaga posisi teks sejajar tengah dengan logo */
+    .navbar-brand {
+      display: flex;
+      align-items: center;
+    }
+  </style>
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <a class="navbar-brand brand d-flex align-item-center">
+  <div class="container-fluid">
+        <img src="logo.png" alt="Logo" width="80" height="80" class="d-inline-block align-text-top">
+        <span class="ms-1">Ramnime</span>
+      </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+     <div class="container mt-5">
+        <h1 class="text-center">Boushoku No Berserk season 1</h1>
+
+        <!-- Daftar Episode -->
+        <ul class="nav nav-pills justify-content-center mb-4" id="episodeList">
+            <li class="nav-item">
+                <button class="nav-link" onclick="loadEpisode('https://www.blogger.com/video.g?token=AD6v5dw636ORrkPEIoFyKq0tM9jdvXKIGmGpCP4ZjCH3DFCFhrxv2KlLFpPsTpd9SM9j59p7t_AlSp4DYb877YN79SB2ojM-_nWj1jBXMYU5H3mT6uRVr5RenvmrvDegMxSRpZpTHtKX')">Episode 1</button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" onclick="loadEpisode('https://www.blogger.com/video.g?token=AD6v5dyyhn5CrgIdS6RSlABPu4w21Nv_ojFrsnY6xn0jUQYW-jSthOWfto28Rr-I4R8eaMjAAzsgcBGnsdmU3WcRP4Bd1cHpBrylOXEvguWXfnz2ry-JVb172bwLq0tLkBLXuZrz9Add')">Episode 2</button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" onclick="loadEpisode('https://www.blogger.com/video.g?token=AD6v5dy1wOo8dggP89dXzelHpb47qhawDBKY6hO05yEegjDtugqRplN0oQ0SV2MPyBJF1pv8V-l1s7pIjlJBR3yWmzlvDBubgNXYExMZxZuhYyAsuVwJdEi9_gMkDRSYIHlYgARnXWU')">Episode 3</button>
+            </li>
+             <li class="nav-item">
+                <button class="nav-link" onclick="loadEpisode('https://www.blogger.com/video.g?token=AD6v5dzyArttJVD9pYkf8Bc7H6rvJnhAU4y2SbzPhcmgXhe-GUYEh_7bpiqCa3AQW9CWXMqlNlqUSBZ-vFvbe00XRHMbxRZpoyE7118_BCKDBqxWMVhiRUmQkGgAwovp9PIq8Bz3YJ0')">Episode 4</button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" onclick="loadEpisode('https://www.blogger.com/video.g?token=AD6v5dx93Mcw8tp8TFLWofeGXwkfS3GdsKnLyYWjLr1b7ThJxsGJCZzSAEonuDiukXdKARE2C0Ir0I_bsD-ksbDipvZdeLXsKOSXmtWwfoKhuzv4Tkm6qj-7XYWVGzB-9jnIONqlzb5x')">Episode 5</button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" onclick="loadEpisode('https://www.blogger.com/video.g?token=AD6v5dzVJ_Y9XiaKEEA9oLy_ZDn48z6YI-wD6EAnB2Yfp_p6BBEJVTUwvKDrEzgphQ7KxGDTV3LUn2hYCVDvE0e6e3VNgaShyWrx_3rvwaDijIqjG0l6LYGD3djBFqNar_LLck8CTdQ')">Episode 6</button>
+            </li>
+             <li class="nav-item">
+                <button class="nav-link" onclick="loadEpisode('https://www.blogger.com/video.g?token=AD6v5dwwlxDYY02ECUbPg3qFKGBFY7O4Rmb3mSgNvh-XJH_cxDaaFMWJ6UShnOh6-hGCljmXg0VDv27V8jIEjfpJLqjONY-xvRYjHZdYPc4aozGH0snyRBl2tbNY1sUIH-Fwiynjr_4')">Episode 7</button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" onclick="loadEpisode('https://www.blogger.com/video.g?token=AD6v5dwKgyTnEhQ_Fg_Hp9sCSYsgGHM73UK39kmfE4R-REFvWWIVP0U8PKJncVBfDCPPEnkQwV2hIauhVfYa6INF-0ht2fIAsCFGr9AZI7L9OF45lVBD8YzZ6iGHscKXRNaGutSCRtE')">Episode 8</button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" onclick="loadEpisode('https://www.blogger.com/video.g?token=AD6v5dwtC9q6hmNXjccskFQsu3m9xeHP7aAyfzBqK-8sexArruBOpv4Ne46gZoE0IDM4M-JpjKoCt0bgSs6UfvfLUOmGKHW2kzCq_GdTNrPPllDaz_CEBCzk6Y5C36X0tiv3QZG83JI')">Episode 9</button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" onclick="loadEpisode('https://www.blogger.com/video.g?token=AD6v5dx5yVCGsLCxFJPduY-o4v_LSdSgDUcWTbGOQ6JrbY6AMX-rDA54NnoTzd_0bh_PQIbYcOWBb-2g-iAi2epyEe4qfeTI-odKJ5tB4Xzg9fbzVJrcJVsfbkK2Tg8Ex-Xa5B-wpBfS')">Episode 10</button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" onclick="loadEpisode('https://www.blogger.com/video.g?token=AD6v5dyB_mKjx8CCC24wSIePfcdKM1jMxc5NdHZDzF3zJ3DBv5EQvqn4XjL3ZJqSmuGLPITHm_brjLER1n6VSXre0QqkTI9Q9GCSoicCENHjbksqEAWrMkSaVKG1ZQG0CvPS8PqsyA')">Episode 11</button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" onclick="loadEpisode('https://www.blogger.com/video.g?token=AD6v5dwoqwbtt-3FhejR2s_ovNCxcY8CbK8oowunxPo_8JnooYsj0pWpaUftWu8C1QwZNFnv8Rg4a1aeHD0rbEMBv0UlY4c4tqpDS5aM4aVcAKvL7fzYa9HcM5uCwB4UWXMhRFujKUZd')">Episode 12 END</button>
+            </li>
+        </ul>
+
+   </div>
+   
+    <!-- Video Player -->
+        <div class="ratio ratio-16x9">
+            <iframe id="videoPlayer" src="https://www.blogger.com/video.g?token=AD6v5dw636ORrkPEIoFyKq0tM9jdvXKIGmGpCP4ZjCH3DFCFhrxv2KlLFpPsTpd9SM9j59p7t_AlSp4DYb877YN79SB2ojM-_nWj1jBXMYU5H3mT6uRVr5RenvmrvDegMxSRpZpTHtKX" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+             <div class="container mt-5">
+        <h1 class="text-center">Season 2 Coming Soon</h1>
+    </div>
+
+    <script>
+        // Function to load the selected episode
+        function loadEpisode(videoUrl) {
+            document.getElementById('videoPlayer').src = videoUrl;
+        }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script></script>
+  </body>
+</html>
